@@ -1,0 +1,75 @@
+/ <reference types="cypress" />
+
+ 
+
+    it('Should try to Login', () => {
+        cy.visit('http://zero.webappsecurity.com/login.html')
+      
+        // cy.fixture("login").then(login => {
+        //     const username = login.username
+        //     const password = login.password
+
+            // cy.get('#user_login').clear()
+            // cy.get('#user_login').type(username)
+
+            // cy.get('#user_password').clear()
+            // cy.get('#user_password').type(password)
+
+
+            // cy.get('input[name="submit"]').click()
+            //  cy.login(username, password)
+            // cy.get('.alert-error').should('contain.text', 'Login and/or password are wrong.')
+        });
+    
+     it('login dengan data username', () => {
+         cy.get('#user_login').type('username')
+             });
+             it('login dengan data password', () => {
+                cy.get('#user_password').type('password') 
+             });
+             it('ceklis remember me', () => {
+                cy.get('#user_remember_me').click()
+             });
+             it('click button ygy', () => {
+                cy.get('.btn').click()
+             });
+             it('clik username', () => {
+                cy.get(':nth-child(3) > .dropdown-toggle').click()
+             });
+             it('clik log out', () => {
+                cy.get('#logout_link').click()
+             });
+             it('clik onlen bank', () => {
+                cy.get('#onlineBankingMenu > div > strong').click()
+            
+             });
+             it('click feedback', () => {
+                cy.get('#feedback > div > strong').click()
+                cy.get('#name').type('ardi')
+                cy.get('#email').type('steveardiyanto3@gmail.com')
+                cy.get('#subject').type('keren lah yahh')
+                cy.get('#comment').type('no comment')
+                cy.get('.btn-signin').click()
+             });
+            //  it('transfer funds', () => {
+            //     cy.get('#transfer_funds_link').click()
+            //  });
+            //  it('checking akun', () => {
+            //     cy.get('#account_activity_link').click()
+            //  });
+            // it('serch pencarian', () => {
+            //     cy.get('#searchTerm').type('online {enter}') 
+            // });      
+            // it('click lagi', () => {
+            //     cy.get(':nth-child(4) > :nth-child(1) > a').click()
+            // });
+            // it('klik sign in ygy', () => {
+            //     cy.get('.icon-signin').click(                                           )
+            // });
+ 
+// it("task eduwork", () => {
+//     cy.visit('http://zero.webappsecurity.com/index.html', (timeout: 1000))
+//     cy.url().should('include', 'index.html')
+
+// });
+
