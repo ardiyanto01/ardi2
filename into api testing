@@ -6,3 +6,10 @@ it('API TEST - Validate Header', () => {
      .should('include', 'application/json; charset=utf-8')
  })
 
+Materi yang dijelaskan hanya point terpentingnya saja. Selanjutnya, carilah artikel mengenai API lalu catat poin-poin pentingnya dan berikan kesimpulannya.
+---> API adalah singkatan dari Application Programming Interface, yaitu sebuah software yang memungkinkan para developer untuk mengintegrasikan dan mengizinkan
+dua aplikasi yang berbeda secara bersamaan untuk saling terhubung satu sama lain. Tujuan penggunaan API adalah untuk saling berbagi data antar aplikasi yang berbeda.
+kesimpulan -->
+--- mmembuat aplikasi lebih mudah berkembang
+--- fungsi akan lebih baik
+--- meminimalisir beban server
